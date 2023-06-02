@@ -1,7 +1,7 @@
 (use ./init)
 
 (defn usage []
-  (print "Usage: ./main [possible-values] [number-of-values]")
+  (print "Usage: check-duplicate-probability [possible-values] [number-of-values]")
   (os/exit 1))
 
 (defn main [&opt _ possible-values number-of-values]

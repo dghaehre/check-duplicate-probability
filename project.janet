@@ -5,4 +5,5 @@
 
 (declare-executable
   :name "check-duplicate-probability"
-  :entry "./src/main.janet")
+  :entry "./src/main.janet"
+  :install true)
